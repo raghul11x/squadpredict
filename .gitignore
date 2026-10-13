@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project-specific
+data/*.db
+models/*
+!models/.gitkeep
+data/*.csv
+datasets/
+uploads/
+scratch/
+sample_screenshots/*
+!sample_screenshots/.gitkeep
+docs/squadpredict_ui.jpg
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+Artifacts/
+*.log
+logs/
+tmp/
+temp/
+
+# OS
+.DS_Store
+Thumbs.db
